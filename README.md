@@ -6,7 +6,7 @@ Media kit online para criadores de conteúdo: uma página única em que cada cap
 
 ![Capa do site de demonstração](docs/capa.jpg)
 
-O botão redondo ao lado do nome, no topo, troca o tema do site: **Mar** (padrão), **Pôr do sol**, **Azul** e **Neon**. Cada tema muda cores, fundos, fontes e os ícones que flutuam, sem mexer nos textos. Também dá para abrir direto num tema pelo endereço, por exemplo `?tema=neon`.
+O botão redondo ao lado do nome, no topo, troca o tema do site: **Neon** (padrão), **Mar**, **Pôr do sol** e **Azul**. Cada tema muda cores, fundos, fontes e os ícones que flutuam, sem mexer nos textos. Também dá para abrir direto num tema pelo endereço, por exemplo `?tema=neon`.
 
 O perfil da demonstração (Luna Prado) é fictício: nome, números, campanhas e marcas foram inventados. Em produção, o mesmo código atende vários influenciadores reais, cada um com o próprio site e domínio.
 

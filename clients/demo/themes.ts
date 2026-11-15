@@ -229,4 +229,5 @@ const neon: SiteTheme = {
   },
 }
 
-export const themes: SiteTheme[] = [mar, porDoSol, azul, neon]
+// O primeiro da lista é o tema que abre por padrão.
+export const themes: SiteTheme[] = [neon, mar, porDoSol, azul]
