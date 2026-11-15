@@ -1,0 +1,36 @@
+{
+  "title": "Luna Prado | Media kit (demonstração)",
+  "description": "Demonstração de media kit para criadores de conteúdo: perfil fictício de Luna Prado, com números, campanhas e marcas inventados.",
+  "url": "https://site-midiakit-rasgando-template.davi-santiago-6-68d.workers.dev",
+  "image": "/og.jpg",
+  "person": {
+    "name": "Luna Prado",
+    "alternateName": [
+      "@luna.prado.demo"
+    ],
+    "jobTitle": "Criadora de conteúdo (perfil fictício)",
+    "location": "Florianópolis, SC"
+  },
+  "summary": [
+    "Lifestyle, viagens e bem-estar contados com leveza, do café da manhã ao pôr do sol na praia.",
+    "Perfil fictício criado para demonstrar o template: nomes, números, campanhas e marcas são inventados."
+  ],
+  "brands": [
+    "Aurora Skin",
+    "Maré Viagens",
+    "Passo Leve",
+    "Grão & Cia",
+    "Lumen",
+    "Café Brisa",
+    "Sol de Agosto",
+    "Ninho Casa"
+  ],
+  "keywords": [
+    "media kit",
+    "mídia kit",
+    "portfólio de influenciador",
+    "criador de conteúdo",
+    "template React",
+    "demonstração"
+  ]
+}
