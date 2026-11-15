@@ -1,6 +1,10 @@
 import "@fontsource/kalam/400.css"
 import "@fontsource/kalam/700.css"
 import type { CreatorPortfolioProps, PortfolioBrand, PostcardProject } from "@/components/ui/creator-portfolio"
+import { mar } from "./themes"
+
+// Temas que o botão ao lado do nome troca (cores, fontes e ícones). Os dados da Luna não mudam.
+export { themes } from "./themes"
 
 // Perfil de demonstração. Luna Prado, os números, as campanhas e as marcas são
 // fictícios. As fotos são do Pexels (licença livre), e os logos são só texto.
@@ -46,53 +50,8 @@ const demo: CreatorPortfolioProps = {
     brand("Sol de Agosto", "sol"),
     brand("Ninho Casa", "ninho"),
   ],
-  // Mar e areia: azul-petróleo nos capítulos escuros, areia nos claros e coral nos detalhes.
-  palette: {
-    navy: "#135e6e",
-    deep: "#0a2f38",
-    fog: "#f3ece2",
-    paper: "#fbf6ef",
-    ink: "#1f2a2e",
-    accent: "#c4532f",
-    tape: "#f2b880",
-    cream: "#fbf6ef",
-    heroDark: true,
-    art: {
-      lav: "#cfe6e6",
-      lilac: "#7fb7bd",
-      violet: "#135e6e",
-      peach: "#fbe7d8",
-      blush: "#f6d9c4",
-      pink: "#e36f4c",
-      mint: "#2a8c8c",
-      mintD: "#1f7373",
-      butter: "#f2b880",
-      sky: "#3a9bb0",
-      cream: "#fbf6ef",
-      plum: "#1f2a2e",
-      hand: "#135e6e",
-      glow: "#7fd1d1",
-      heroBg: "radial-gradient(55% 70% at 88% 45%, #2a8c8c 0%, transparent 72%), linear-gradient(160deg, #135e6e 0%, #0f4c5c 55%, #0a2f38 100%)",
-      fogBg: "linear-gradient(135deg, #fbf6ef 0%, #f3ece2 60%, #f6d9c4 100%)",
-      paperBg: "linear-gradient(135deg, #fbf6ef 0%, #f3ece2 70%, #cfe6e6 100%)",
-      nightBg: "radial-gradient(42% 52% at 100% 100%, #e36f4c 0%, #a8573f 40%, transparent 76%), linear-gradient(130deg, #0a2f38 0%, #0f4c5c 55%, #135e6e 100%)",
-      nightBandBg: "linear-gradient(90deg, #0a2f38, #0f4c5c)",
-      contactBg: "radial-gradient(34% 48% at 92% 66%, #2a8c8c 0%, #1f6f78 40%, transparent 78%), linear-gradient(130deg, #0a2f38 0%, #0f4c5c 55%, #135e6e 100%)",
-      brandsBg: "linear-gradient(125deg, #0a2f38 0%, #135e6e 55%, #2a8c8c 100%)",
-      wave1: "#1f6f78",
-      wave2: "#0f4c5c",
-      wave3: "#0a2f38",
-      wave4: "#e36f4c",
-      nightWave: "#2a8c8c",
-      nightBand: "#0f4c5c",
-      nightFloor: "#0a2f38",
-      sun: "#f2b880",
-      sticker1: "#0a2f38",
-      sticker2: "#135e6e",
-      sticker3: "#c4532f",
-      sticker4: "#1f2a2e",
-    },
-  },
+  palette: mar.palette,
+
   routeTitle: "Redes e audiência",
   contactTitle: "Vamos colaborar?",
   phoneScreen: "/perfil.jpg",

@@ -1,0 +1,88 @@
+/* Fontes dos temas que trocam a tipografia. Cada regra vale só dentro do
+   invólucro com o data-tema correspondente, então o tema "Mar" segue igual. */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("/fonts/bricolage-grotesque.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Azul: títulos pesados em Montserrat no lugar da serifa fina. */
+[data-tema="azul"] .tpp-root.tpp-root {
+  --tpp-serif: "Montserrat", "Arial Black", Arial, sans-serif;
+}
+
+/* Neon: grotesca pesada em tudo, títulos e textos. */
+[data-tema="neon"] .tpp-root.tpp-root {
+  --tpp-serif: "Bricolage Grotesque", "Arial Black", Arial, sans-serif;
+  font-family: "Bricolage Grotesque", Arial, sans-serif;
+}
+
+[data-tema="azul"] .tpp-root .tpp-h,
+[data-tema="azul"] .tpp-root .tpp-serif,
+[data-tema="azul"] .tpp-root .tpp-pin-y,
+[data-tema="neon"] .tpp-root .tpp-h,
+[data-tema="neon"] .tpp-root .tpp-serif,
+[data-tema="neon"] .tpp-root .tpp-pin-y {
+  font-weight: 800 !important;
+}
+
+[data-tema="azul"] .tpp-root .tpp-h {
+  letter-spacing: 0.01em;
+}
+
+[data-tema="neon"] .tpp-root .tpp-h {
+  letter-spacing: -0.01em;
+}
+
+/* Sem letra manuscrita: a fonte de bloco entra mais firme e um pouco menor. */
+[data-tema="azul"] .tpp-root .tpp-hw,
+[data-tema="neon"] .tpp-root .tpp-hw {
+  font-size: clamp(13px, 1.3cqw, 16px);
+  font-weight: 500;
+  text-align: left !important;
+  color: var(--tpp-ink);
+}
+
+[data-tema="azul"] .tpp-root .tpp-note,
+[data-tema="neon"] .tpp-root .tpp-note {
+  font-weight: 600;
+}
+
+[data-tema="azul"] .tpp-root .tpp-email,
+[data-tema="azul"] .tpp-root dd.tpp-hand,
+[data-tema="azul"] .tpp-root .tpp-polaroid .tpp-hand,
+[data-tema="azul"] .tpp-root .tpp-route-hint span,
+[data-tema="neon"] .tpp-root .tpp-email,
+[data-tema="neon"] .tpp-root dd.tpp-hand,
+[data-tema="neon"] .tpp-root .tpp-polaroid .tpp-hand,
+[data-tema="neon"] .tpp-root .tpp-route-hint span {
+  font-weight: 700;
+}
+
+[data-tema="azul"] .tpp-root .tpp-route-hint span,
+[data-tema="neon"] .tpp-root .tpp-route-hint span {
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+[data-tema="azul"] .tpp-root .tpp-stat strong,
+[data-tema="neon"] .tpp-root .tpp-stat strong {
+  font-size: 1.6em;
+  font-weight: 800;
+}
+
+[data-tema="azul"] .tpp-root .tpp-stat span,
+[data-tema="neon"] .tpp-root .tpp-stat span {
+  font-size: 0.85em;
+  white-space: nowrap;
+}
