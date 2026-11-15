@@ -4,7 +4,7 @@ Media kit online para criadores de conteúdo: uma página única em que cada cap
 
 **Demonstração:** https://site-midiakit-rasgando-template.davi-santiago-6-68d.workers.dev
 
-![Capa do site de demonstração](docs/capa.png)
+![Capa do site de demonstração](docs/capa.jpg)
 
 O perfil da demonstração (Luna Prado) é fictício: nome, números, campanhas e marcas foram inventados. Em produção, o mesmo código atende vários influenciadores reais, cada um com o próprio site e domínio.
 
